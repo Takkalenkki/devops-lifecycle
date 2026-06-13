@@ -41,13 +41,15 @@ As per the kood/Sisu rules, I will only disclose the source code and configurati
 | **Filebeat** | Lightweight log shipper | Forwarding VM logs to Logstash |
 | **Fluent Bit** | Lightweight log and metrics processor | Forwarding Kubernetes pod logs in cluster tasks |
 | **Kibana** | Visualisation UI for Elasticsearch | Log exploration and dashboards in ELK stack |
+| **Alertmanager**  | Alerting system for Prometheus | Alert grouping and deduplication for infrastructure alerts |
 | **Minikube** | Local single-node Kubernetes cluster tool | Kubernetes environment for tasks 5–6 |
 | **Helm** | Kubernetes package manager | Packaging and deploying application manifests |
 | **ArgoCD** | GitOps continuous delivery tool for Kubernetes | Automated application deployment from Git |
 | **ArgoCD Image Updater** | ArgoCD extension for image tag automation | Automated image promotion on new container builds |
 | **HashiCorp Vault** | Secrets management platform | Storing and rotating application secrets |
 | **Vault Secrets Operator** | Kubernetes operator for Vault integration | Injecting Vault secrets into Kubernetes workloads |
-| **cert-manager** | Certificate controller for Kubernetes | Creating certificates for local Minikube setup to avoid certificate warnings |
+| **cert-manager** | Certificate controller for Kubernetes | TLS certificate management for local Minikube ingress |
+| **Trivy** | Image Vulnerability Scanner | Container image vulnerability scanning in the CI/CD pipeline |
 
 ## Brief Task Explanations
 
@@ -75,13 +77,15 @@ The aim of this [task](/04-sherlock-logs/README.md) was to implement a centraliz
 
 Monitoring was built around **Prometheus** for metrics collection and **Grafana** for visualization. The existing infrastructure metrics application was modified to expose a Prometheus-compatible metrics endpoint.
 
-Logging was centralized using the **ELK** stack. The application was updated to ensure structured log delivery.
+Logging was centralized using the **ELK** stack (**Elasticsearch**, **Logstash**, and **Kibana**). The application was updated to ensure structured log delivery.
 
 All components were integrated into the existing automation and CI/CD pipelines, ensuring monitoring and logging agents are depoloyed automatically with new infrastructure. The final system delivers continuous observability, proactive alerting, faster incident response, and data-driven operational insight across the entire environment.
 
 ### Cluster Chronicles
 
 The aim of this [task](/05-cluster-chronicles/README.md) was to migrate from the previous VM-based approach to a **local Kubernetes cluster** on **Minikube**.
+
+Monitoring was built around **Prometheus** and **Grafana**. Logging centralization was done using **EFK** stack (**Elasticsearch**, **Fluent Bit**, and **Kibana**).
 
 ### GitOps Galaxy
 
