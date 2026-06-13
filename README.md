@@ -11,8 +11,8 @@ Tasks in order:
 4. [Sherlock Logs](/04-sherlock-logs/README.md)
 5. [Cluster Chronicles](/05-cluster-chronicles/README.md)
 6. [GitOps Galaxy](/06-gitops-galaxy/README.md)
-7. Cloud Cartographer
-8. Voyager (optional)
+7. Cloud Cartographer (in-progress)
+8. Voyager (optional, in-progress)
 
 As per the kood/Sisu rules, I will only disclose the source code and configuration files to potential recruiters upon request.
 
@@ -29,7 +29,7 @@ As per the kood/Sisu rules, I will only disclose the source code and configurati
 | **WireGuard** | Modern, lightweight VPN protocol | Secure inter-VM networking and remote access |
 | **Nginx** | High-performance web server and reverse proxy | Load balancing and reverse proxying the application |
 | **Prometheus** | Time-series metrics collection system | Infrastructure and application metrics collection |
-| **Grafana** | Metrics and log visualisation platform | Dashboards and alerting for infrastructure metrics |
+| **Grafana** | Metrics and log visualization platform | Dashboards and alerting for infrastructure metrics |
 | **Docker** | Container runtime and image build tool | Containerising the diagnostic application |
 | **Terraform** | Infrastructure-as-Code provisioning tool | Automated VM provisioning in Automation Alchemy |
 | **Ansible** | Agentless configuration management tool | Automated VM configuration and app deployment |
@@ -40,7 +40,7 @@ As per the kood/Sisu rules, I will only disclose the source code and configurati
 | **Logstash** | Server-side data processing pipeline | Log ingestion and transformation into Elasticsearch |
 | **Filebeat** | Lightweight log shipper | Forwarding VM logs to Logstash |
 | **Fluent Bit** | Lightweight log and metrics processor | Forwarding Kubernetes pod logs in cluster tasks |
-| **Kibana** | Visualisation UI for Elasticsearch | Log exploration and dashboards in ELK stack |
+| **Kibana** | Visualization UI for Elasticsearch | Log exploration and dashboards in ELK stack |
 | **Alertmanager**  | Alerting system for Prometheus | Alert grouping and deduplication for infrastructure alerts |
 | **Minikube** | Local single-node Kubernetes cluster tool | Kubernetes environment for tasks 5–6 |
 | **Helm** | Kubernetes package manager | Packaging and deploying application manifests |
