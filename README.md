@@ -40,7 +40,7 @@ As per the kood/Sisu rules, I will only disclose the source code and configurati
 | **Logstash** | Server-side data processing pipeline | Log ingestion and transformation into Elasticsearch |
 | **Filebeat** | Lightweight log shipper | Forwarding VM logs to Logstash |
 | **Fluent Bit** | Lightweight log and metrics processor | Forwarding Kubernetes pod logs in cluster tasks |
-| **Kibana** | Visualization UI for Elasticsearch | Log exploration and dashboards in ELK stack |
+| **Kibana** | Visualization UI for Elasticsearch | Log exploration and dashboards in ELK/EFK stack |
 | **Alertmanager**  | Alerting system for Prometheus | Alert grouping and deduplication for infrastructure alerts |
 | **Minikube** | Local single-node Kubernetes cluster tool | Kubernetes environment for tasks 5–6 |
 | **Helm** | Kubernetes package manager | Packaging and deploying application manifests |
