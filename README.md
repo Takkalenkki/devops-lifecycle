@@ -23,8 +23,8 @@ As per the kood/Sisu rules, I will only disclose the source code and configurati
 | **Go** | Compiled, statically typed language by Google | Backend of the diagnostic web application |
 | **React** | JavaScript UI library | Frontend of the diagnostic web application |
 | **PostgreSQL** | Open-source relational database | Application database in Cloud Cartographer/Voyager |
-| **QEMU** | Hardware virtualisation and emulation engine | Running Ubuntu VMs in tasks 1–4 |
-| **libvirt** | Virtualisation management API and toolset | Managing QEMU/KVM VMs via CLI and Terraform |
+| **QEMU** | Hardware virtualization and emulation engine | Running Ubuntu VMs in tasks 1–4 |
+| **libvirt** | Virtualization management API and toolset | Managing QEMU/KVM VMs via CLI and Terraform |
 | **Fail2Ban** | Intrusion prevention via log-based banning | Blocking repeated SSH login attempts on VMs |
 | **WireGuard** | Modern, lightweight VPN protocol | Secure inter-VM networking and remote access |
 | **Nginx** | High-performance web server and reverse proxy | Load balancing and reverse proxying the application |
