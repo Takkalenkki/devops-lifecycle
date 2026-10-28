@@ -93,13 +93,11 @@ The aim of this [task](/06-gitops-galaxy/README.md) was to implement a full GitO
 
 ### Cloud Cartographer
 
-The aim of this task is to conduct a cost analysis for migrating a _Sample application_, which consists of a **React** frontend, **Go** backend, and **PostgreSQL** database.
+The aim of this [task](/07-cloud-cartographer/README.md) was to conduct a cost analysis for migrating a _Sample application_, which consists of a **React** frontend, **Go** backend, and **PostgreSQL** database.
 
 The application is deployed to two environments: `test` and `prod`.
 
-The goal is to assess the infrastructure and calculate the cost for two out of three leading cloud providers: **Amazon Web Services**, **Google Cloud Platform** and **Microsoft Azure**.
-
-This task is still in-progress, therefore no README is provided yet.
+The goal was to assess the infrastructure and calculate the cost for two out of three leading cloud providers: **Amazon Web Services**, **Google Cloud Platform** and **Microsoft Azure**. In this case, AWS and Azure were selected for comparison.
 
 ### Voyager (Optional)
 
