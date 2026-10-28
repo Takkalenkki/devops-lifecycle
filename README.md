@@ -11,7 +11,7 @@ Tasks in order:
 4. [Sherlock Logs](/04-sherlock-logs/README.md)
 5. [Cluster Chronicles](/05-cluster-chronicles/README.md)
 6. [GitOps Galaxy](/06-gitops-galaxy/README.md)
-7. Cloud Cartographer (in-progress)
+7. [Cloud Cartographer](/07-cloud-cartographer/README.md)
 8. Voyager (optional, in-progress)
 
 As per the kood/Sisu rules, I will only disclose the source code and configuration files to potential recruiters upon request.
